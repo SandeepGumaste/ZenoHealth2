@@ -1,6 +1,6 @@
 .heading{
-    font-size: calc(1.525rem + 3.3vw);
     font-weight: 700;
+    font-size: calc(1.525rem + 3.3vw);
 }
 
 .btn{
@@ -19,4 +19,17 @@
   top: -15px;
   right: 0;
   backdrop-filter: blur(4px);
+}
+
+.imageCircleContainer{
+  left:-1rem
+}
+
+
+@media screen and (min-width: 1200px) {
+
+.heading{
+  font-size: 64px;
+}
+
 }

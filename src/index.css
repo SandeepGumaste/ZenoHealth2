@@ -14,3 +14,10 @@ p,a,label,btn{
   color: #747579;
 }
 
+@media screen and (min-width: 1200px) {
+
+  .container{
+    max-width: 1140px;
+  }
+
+}

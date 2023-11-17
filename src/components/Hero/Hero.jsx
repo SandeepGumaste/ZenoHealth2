@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Hero.module.css'
+import ImageCircle from '../ImageCircle'
 
 const Hero = () => {
   return (
@@ -27,12 +28,12 @@ const Hero = () => {
                   <h5 className="fw-bold mb-1">24 / 7</h5>
                   <h6 className="text-dark fw-light small mb-0">Guide Supports</h6>
                 </div>
-              </div>
+                </div>
+                <div className={`${styles.imageCircleContainer} gap-5 align-items-center position-absolute top-0 d-none d-md-flex mt-4 flex-column`}>
+                  <ImageCircle src="https://booking.webestica.com/assets/images/category/hotel/4by3/11.jpg" size={3.5}/>
+                  <ImageCircle src="https://booking.webestica.com/assets/images/category/hotel/4by3/12.jpg" size={5}/>
+                </div>
 
-              <div className="vstack gap-5 align-items-center position-absolute top-0 start-0 d-none d-md-flex mt-4 ms-n3">
-                <img className="icon-lg shadow-lg border border-3 border-white rounded-circle" src="https://booking.webestica.com/assets/images/category/hotel/4by3/11.jpg" alt="avatar"/>
-                <img className="icon-xl shadow-lg border border-3 border-white rounded-circle" src="assets/images/category/hotel/4by3/12.jpg" alt="avatar"/>
-              </div>
             </div>
         </div>
       </div>
