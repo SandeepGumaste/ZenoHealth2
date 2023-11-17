@@ -1,0 +1,13 @@
+.hotelCard{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.hotelName{
+    transition: all 0.6s ease;
+}
+
+.hotelCard:hover .hotelName{
+    color:var(--btn-txt) !important;
+}
