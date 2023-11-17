@@ -1,0 +1,22 @@
+.heading{
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 700;
+}
+
+.btn{
+    color: var(--btn-txt);
+    background-color: var(--btn-bg);
+    font-weight: 600;
+  }
+  
+.btn:hover{
+    background-color: var(--btn-txt);
+    color: #fff;
+  }
+
+.guide{
+  position: absolute;
+  top: -15px;
+  right: 0;
+  backdrop-filter: blur(4px);
+}
