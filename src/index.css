@@ -5,11 +5,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --btn-txt:#5143d9;
-  --btn-bg:rgba(81, 67, 217, 0.1)
+  --btn-bg:rgba(81, 67, 217, 0.1);
+  --success:rgb(12,188,135);
 }
 
+section {
+  padding-top: 3.5rem;
+  padding-bottom: 2.8rem;
+}
 
-p,a,label,btn{
+p,a,label,button{
   font-family: 'DM Sans', sans-serif;
   color: #747579;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Hero.module.css'
-import ImageCircle from '../ImageCircle'
+import ImageCircle from './ImageCircle'
 
 const Hero = () => {
   return (
