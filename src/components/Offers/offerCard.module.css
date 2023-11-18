@@ -1,0 +1,21 @@
+.cardImg{
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .offerCard{
+        height: 130px;
+        cursor: pointer;
+    }
+    .cardImg{
+        max-width: 130px;
+        height: 128px;
+        object-fit: cover;
+    }
+  
+  }
+  

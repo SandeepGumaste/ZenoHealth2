@@ -19,6 +19,10 @@ p,a,label,button{
   color: #747579;
 }
 
+button[data-action="stop"]{
+  display: none;
+}
+
 @media screen and (min-width: 1200px) {
 
   .container{
