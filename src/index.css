@@ -23,6 +23,14 @@ button[data-action="stop"]{
   display: none;
 }
 
+.rdrDefinedRangesWrapper{
+  display: none;
+}
+
+.fill{
+ color: var(--btn-txt);
+}
+
 @media screen and (min-width: 1200px) {
 
   .container{

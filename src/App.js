@@ -7,6 +7,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Offers from './components/Offers/Offers';
 import BestDeals from './components/BestDeals/BestDeals';
 import Navbar from './components/Navbar/Navbar';
+import Filters from './components/Filters/Filters';
+import Feedback from './components/Feedback/Feedback';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <BestDeals/>
       <FeaturedHotels/>
       <Clients/>
+      <Feedback/>
       <ExploreNearby/>
       <Trust/>
     </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="container py-1 py-sm-2">
         <div className='d-flex align-items-center'>
             <img alt='logo' src='https://booking.webestica.com/assets/images/logo.svg' height={40}/>
-            <div className='d-none align-items-center ms-4 btn p-0 border-0 d-sm-flex'>
+            <div className='d-none align-items-center ms-4 btn p-0 border-0 d-sm-flex d-lg-none'>
                 <span><i class="bi bi-list fs-3"/></span>
                 <span className='d-none d-sm-flex'>Menu</span>
             </div>
