@@ -162,3 +162,31 @@ export const featuredHotelsData=[
         price:455,
     }
 ]
+
+export const avatars = [
+    "https://booking.webestica.com/assets/images/avatar/01.jpg",
+    "https://booking.webestica.com/assets/images/avatar/02.jpg",
+    "https://booking.webestica.com/assets/images/avatar/03.jpg",
+    "https://booking.webestica.com/assets/images/avatar/04.jpg",
+]
+
+export const locationOptions=["San Jacinto, USA","North Dakota, Canada","West Virginia, Paris"]
+
+export const navCategoriesData=[
+    {
+        icon:"bi-building",
+        name:"Hotel"
+    },
+    {
+        icon:"bi-airplane-fill",
+        name:"Flight"
+    },
+    {
+        icon:"bi-globe-americas",
+        name:"Tour"
+    },
+    {
+        icon:"bi-car-front-fill",
+        name:"Cab"
+    },
+]

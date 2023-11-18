@@ -1,23 +1,7 @@
 import React from 'react'
 import styles from "./categories.module.css"
-const navCategoriesData=[
-    {
-        icon:"bi-building",
-        name:"Hotel"
-    },
-    {
-        icon:"bi-airplane-fill",
-        name:"Flight"
-    },
-    {
-        icon:"bi-globe-americas",
-        name:"Tour"
-    },
-    {
-        icon:"bi-car-front-fill",
-        name:"Cab"
-    },
-]
+import { navCategoriesData } from '../../data/data'
+
 
 
 const Categories = () => {

@@ -7,8 +7,9 @@ import { DateRangePicker } from 'react-date-range';
 import {format} from "date-fns"
 import CommonCounter from './CommonCounter';
 import DropDown from './Dropdown'
+import { locationOptions } from '../../data/data';
 
-const locationOptions=["San Jacinto, USA","North Dakota, Canada","West Virginia, Paris"]
+
 
 const Filters = () => {
     const[range,setRange] = useState(
