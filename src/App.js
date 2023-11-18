@@ -16,7 +16,6 @@ function App() {
       <Navbar/>
       <Hero/>
       <Filters/>
-      <section className='d-flex d-lg-none'/>
       <Offers/>
       <BestDeals/>
       <FeaturedHotels/>

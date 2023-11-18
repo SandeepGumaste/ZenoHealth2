@@ -94,7 +94,7 @@ const Filters = () => {
       
   return (
     <section className='p-lg-0 m-lg-0'>
-        <div className='container position-relative py-5'>
+        <div className='container position-relative py-4'>
             <div className={`${styles.filters} pe-4`}>
                 <button className={`${styles.searchButton} rounded-circle`}> <i className='bi bi-search fs-4'/></button>
                 <div className='d-flex flex-column flex-lg-row  rounded-4 gap-4 gap-lg-0 px-4 py-4 '>
