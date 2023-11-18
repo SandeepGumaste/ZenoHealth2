@@ -6,7 +6,7 @@ import styles from "./filters.module.css"
 import { DateRangePicker } from 'react-date-range';
 import {format} from "date-fns"
 import CommonCounter from './CommonCounter';
-import AutoCompleteDropDown from './AutocompleteDropdown';
+import DropDown from './Dropdown'
 
 const locationOptions=["San Jacinto, USA","North Dakota, Canada","West Virginia, Paris"]
 
@@ -109,7 +109,7 @@ const Filters = () => {
                                 <span className='ps-2'>{location}</span>
                                 {
                                     showLocationSelector && <div className=''>
-                                    <AutoCompleteDropDown handleSelect={handleSelectLocation} options={locationOptions}/>
+                                    <DropDown handleSelect={handleSelectLocation} options={locationOptions}/>
                                     </div>
                                 }
                         </div>
