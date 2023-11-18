@@ -1,31 +1,9 @@
 import React from 'react'
 import styles from "./bestDeals.module.css"
 import AvatarGroup from './AvatarGroup'
+import { advantages } from '../../data/data'
 
-const advantages=[
-    {
-        icon:"bi-egg-fried",
-        heading:"Quality Food",
-        content:"Departure defective arranging rapturous did. Conduct denied adding worthy little."
-    },
-    {
-        icon:"bi-alarm",
-        heading:"Quick Services",
-        content:"Supposing so be resolving breakfast am or perfectly."
-    },
-    {
-        icon:"bi-shield-fill",
-        heading:"High Security",
-        content:"Rapturous did believe him all had supported."
-    },
-    {
-        icon:"bi-lightning-fill",
-        heading:"24 Hours Alert",
-        content:"Rapturous did believe him all had supported."
-    }
 
-    
-]
 const BestDeals = () => {
 
   return (
@@ -45,7 +23,7 @@ const BestDeals = () => {
                     {advantages.map((advantage)=>{
                         const{icon,heading,content} =advantage
                         return(
-                            <div className='col-12 col-sm-5'>
+                            <div key={advantage.heading} className='col-12 col-sm-5'>
                                 <div className={`${styles.iconContainer} rounded-circle`}>
                                     <i className={`bi ${icon} fs-4`}/>
                                 </div>

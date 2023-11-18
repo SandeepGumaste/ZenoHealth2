@@ -151,7 +151,7 @@ const Filters = () => {
                                 showGuestSelector && <div ref={guestsRef} className={`${styles.countersContainer} px-3 py-2`}>
                                 {Object.keys(guestsAndRooms).filter((item)=>item!=="totalGuests").map((item)=>{
                                     return (
-                                        <CommonCounter count={guestsAndRooms[item]} name={item} handleIncrease={handleIncrease} handleDecrease={handleDecrease}/>
+                                        <CommonCounter key={item} count={guestsAndRooms[item]} name={item} handleIncrease={handleIncrease} handleDecrease={handleDecrease}/>
                                     )
                                 })}
                             </div>

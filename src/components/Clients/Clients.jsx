@@ -1,14 +1,8 @@
 import React from 'react'
 import styles from "./clients.module.css"
+import { clientImages } from '../../data/data'
 
-const clientImages = [
-    "https://booking.webestica.com/assets/images/client/01.svg",
-    "https://booking.webestica.com/assets/images/client/02.svg",
-    "https://booking.webestica.com/assets/images/client/03.svg",
-    "https://booking.webestica.com/assets/images/client/04.svg",
-    "https://booking.webestica.com/assets/images/client/05.svg",
-    "https://booking.webestica.com/assets/images/client/06.svg",
-]
+
 
 const Clients = () => {
   return (
@@ -18,7 +12,7 @@ const Clients = () => {
                 {
                     clientImages.map((client)=>{
                         return (
-                            <div className="col-5 col-sm-3 col-xl-2 px-lg-3">
+                            <div key={client} className="col-5 col-sm-3 col-xl-2 px-lg-3">
                                 <img src={client} className={`${styles.greyscale} w-100`} alt="client"/>
 			                </div>
                         )

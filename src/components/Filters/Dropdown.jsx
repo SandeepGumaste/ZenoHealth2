@@ -30,7 +30,7 @@ const DropDown = ({options,handleSelect}) => {
 
         {
             filtered.map((option)=>{
-                return <div className={`${styles.dropdownOption} border-bottom p-2`} onClick={()=>handleSelect(option)}>
+                return <div key={option} className={`${styles.dropdownOption} border-bottom p-2`} onClick={()=>handleSelect(option)}>
                     {
                         option
                     }

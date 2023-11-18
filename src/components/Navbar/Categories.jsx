@@ -33,7 +33,7 @@ const Categories = () => {
         {
             navCategoriesData.map((cat,index)=>{
                 const{icon,name} =cat
-                return <button className={`me-1 btn ${styles.btn} ${index===0 && styles.btnActive}`}>
+                return <button key={cat+index} className={`me-1 btn ${styles.btn} ${index===0 && styles.btnActive}`}>
                     <span><i className={`bi ${icon} me-2`}/></span>
                     {name}
                 </button>

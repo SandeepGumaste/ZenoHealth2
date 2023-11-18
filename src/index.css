@@ -41,6 +41,16 @@ button[data-action="stop"]{
  color: var(--btn-txt);
 }
 
+ul{
+  list-style: none;
+}
+.nav-link{
+  padding: 3px 0;
+}
+a {
+  text-decoration: none;
+}
+
 
 @media screen and (min-width: 1200px) {
 
