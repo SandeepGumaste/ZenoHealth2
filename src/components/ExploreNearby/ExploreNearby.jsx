@@ -30,38 +30,38 @@ const nearbyPlacesData=[
     },
     {
         "imgUrl": "https://booking.webestica.com/assets/images/category/hotel/nearby/06.jpg",
-        "name": "San Francisco",
-        "travelTime": "13 min"
+        "name": "North Justen",
+        "travelTime": "2-hour"
     },
     {
         "imgUrl": "https://booking.webestica.com/assets/images/category/hotel/nearby/07.jpg",
-        "name": "San Francisco",
-        "travelTime": "13 min"
+        "name": "Rio",
+        "travelTime": "20 min"
     },
     {
         "imgUrl": "https://booking.webestica.com/assets/images/category/hotel/nearby/08.jpg",
-        "name": "San Francisco",
-        "travelTime": "13 min"
+        "name": "Las Vegas",
+        "travelTime": "3-hour"
     },
     {
         "imgUrl": "https://booking.webestica.com/assets/images/category/hotel/nearby/09.jpg",
-        "name": "San Francisco",
-        "travelTime": "13 min"
+        "name": "Texas",
+        "travelTime": "55 min"
     },
     {
         "imgUrl": "https://booking.webestica.com/assets/images/category/hotel/nearby/10.jpg",
-        "name": "San Francisco",
+        "name": "Chicago",
         "travelTime": "13 min"
     },
     {
         "imgUrl": "https://booking.webestica.com/assets/images/category/hotel/nearby/11.jpg",
-        "name": "San Francisco",
-        "travelTime": "13 min"
+        "name": "New Keagan",
+        "travelTime": "35 min"
     },
     {
         "imgUrl": "https://booking.webestica.com/assets/images/category/hotel/nearby/12.jpg",
-        "name": "San Francisco",
-        "travelTime": "13 min"
+        "name": "Oslo",
+        "travelTime": "1 hour 13 min"
     }
 ]
 
@@ -73,7 +73,7 @@ const ExploreNearby = () => {
                 <div className="col-12 text-center">
                     <h2 className="fw-bold display-5">Explore Nearby</h2>
                 </div>
-                <div className='row g-4 g-md-5 mt-0'>
+                <div className='row g-4 g-md-5 mt-0 px-0'>
                     {
                         nearbyPlacesData.map((place)=><ExploreNearbyCard data={place}/>)
                     }

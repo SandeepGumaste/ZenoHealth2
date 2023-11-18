@@ -14,11 +14,11 @@ const Clients = () => {
   return (
     <section>
         <div className='container'>
-            <div className='row g-4 g-lg-5 justify-content-center align-items-center'>
+            <div className='row gap-4 gap-lg-0 justify-content-center align-items-center'>
                 {
                     clientImages.map((client)=>{
                         return (
-                            <div className="col-5 col-sm-3 col-xl-2">
+                            <div className="col-5 col-sm-3 col-xl-2 px-lg-3">
                                 <img src={client} className={`${styles.greyscale} w-100`} alt="client"/>
 			                </div>
                         )
