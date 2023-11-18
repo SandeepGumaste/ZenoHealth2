@@ -5,12 +5,16 @@ import FeaturedHotels from './components/FeaturedHotels/FeaturedHotels';
 import Hero from './components/Hero/Hero';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Offers from './components/Offers/Offers';
+import BestDeals from './components/BestDeals/BestDeals';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <Hero/>
       <Offers/>
+      <BestDeals/>
       <FeaturedHotels/>
       <Clients/>
       <ExploreNearby/>
