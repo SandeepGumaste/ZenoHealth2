@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import styles from "./filters.module.css"
 
-const AutoCompleteDropDown = ({options,handleSelect}) => {
+const DropDown = ({options,handleSelect}) => {
     const inputRef = useRef(null)
     const [searchText, setSearchText] = useState("")
     const [filtered, setfiltered] = useState(options)
@@ -41,4 +41,4 @@ const AutoCompleteDropDown = ({options,handleSelect}) => {
   )
 }
 
-export default AutoCompleteDropDown
+export default DropDown
