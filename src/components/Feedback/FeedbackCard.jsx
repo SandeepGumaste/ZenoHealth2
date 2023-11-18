@@ -6,7 +6,7 @@ const FeedbackCard = () => {
     <div className='d-flex flex-column flex-md-row justify-content-between'>
         <div className='col-md-6 col-lg-5 position-relative'>
             <img className='img-fluid rounded-3' src='https://booking.webestica.com/assets/images/team/02.jpg' alt='person'/>
-            <div className={`${styles.emoji} position-absolute top-0 start-0 z-index-9 rounded-3`}>
+            <div className={`${styles.emoji} position-absolute top-0 start-0 z-index-9 rounded-3 d-none d-md-flex`}>
                 <img src='https://booking.webestica.com/assets/images/element/02.svg' width={44} alt=''/>
             </div>
         </div>
