@@ -7,16 +7,21 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Offers from './components/Offers/Offers';
 import BestDeals from './components/BestDeals/BestDeals';
 import Navbar from './components/Navbar/Navbar';
+import Filters from './components/Filters/Filters';
+import Feedback from './components/Feedback/Feedback';
 
 function App() {
   return (
     <div>
       <Navbar/>
       <Hero/>
+      <Filters/>
+      <section className='d-flex d-lg-none'/>
       <Offers/>
       <BestDeals/>
       <FeaturedHotels/>
       <Clients/>
+      <Feedback/>
       <ExploreNearby/>
       <Trust/>
     </div>

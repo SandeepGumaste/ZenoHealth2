@@ -33,9 +33,9 @@ const featuredHotelsData=[
 const FeaturedHotels = () => {
   return (
     <div className='container'>
-        <div class="row mb-4 justify-content-center">
-			<div class="col-12 text-center">
-				<h2 class="mb-0 fw-bold display-5">Featured Hotels</h2>
+        <div className="row mb-4 justify-content-center">
+			<div className="col-12 text-center">
+				<h2 className="mb-0 fw-bold display-5">Featured Hotels</h2>
 			</div>
             <div className='row g-4 px-0'>
                 {

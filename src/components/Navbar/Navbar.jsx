@@ -9,12 +9,12 @@ const Navbar = () => {
     <div className="container py-1 py-sm-2">
         <div className='d-flex align-items-center'>
             <img alt='logo' src='https://booking.webestica.com/assets/images/logo.svg' height={40}/>
-            <div className='d-none align-items-center ms-4 btn p-0 border-0 d-sm-flex'>
-                <span><i class="bi bi-list fs-3"/></span>
+            <div className='d-none align-items-center ms-4 btn p-0 border-0 d-sm-flex d-lg-none'>
+                <span><i className="bi bi-list fs-3"/></span>
                 <span className='d-none d-sm-flex'>Menu</span>
             </div>
         </div>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-items-center d-none d-lg-flex">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-items-center d-none d-lg-flex">
             <li className="nav-item dropdown p-3">
                 <a className="nav-link m-0 p-0 dropdown-toggle position-relative fw-semibold" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Listings
@@ -51,7 +51,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item dropdown p-3">
                 <a className="nav-link m-0 p-0 dropdown-toggle position-relative fw-semibold" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-three-dots"/>
+                <i className="bi bi-three-dots"/>
                 </a>
                 <ul className="dropdown-menu position-absolute border-0 shadow p-2">
                     <li><a className="dropdown-item" href="#!">User Profile</a></li>
@@ -63,7 +63,7 @@ const Navbar = () => {
         </ul>
         <div className='d-flex justify-content-center'>
         <div className='d-flex align-items-center ms-4 btn p-0 border-0 d-sm-none'>
-            <span><i class="bi bi-list fs-3"/></span>
+            <span><i className="bi bi-list fs-3"/></span>
         </div>
             <Categories/>
             <button className={`${styles.notification} btn ms-3`}>

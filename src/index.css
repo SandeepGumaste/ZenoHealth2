@@ -23,6 +23,25 @@ button[data-action="stop"]{
   display: none;
 }
 
+.rdrDefinedRangesWrapper{
+  display: none;
+}
+.rdrDateRangePickerWrapper{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background:  white !important;
+  z-index:100;
+  border: 1px solid var(--btn-txt);
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+}
+
+.fill{
+ color: var(--btn-txt);
+}
+
+
 @media screen and (min-width: 1200px) {
 
   .container{
