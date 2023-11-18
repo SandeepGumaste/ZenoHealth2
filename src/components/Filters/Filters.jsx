@@ -7,8 +7,9 @@ import { DateRangePicker } from 'react-date-range';
 import {format} from "date-fns"
 import CommonCounter from './CommonCounter';
 import DropDown from './Dropdown'
+import { locationOptions } from '../../data/data';
 
-const locationOptions=["San Jacinto, USA","North Dakota, Canada","West Virginia, Paris"]
+
 
 const Filters = () => {
     const[range,setRange] = useState(
@@ -94,7 +95,7 @@ const Filters = () => {
       
   return (
     <section className='p-lg-0 m-lg-0'>
-        <div className='container position-relative py-5'>
+        <div className='container position-relative py-4'>
             <div className={`${styles.filters} pe-4`}>
                 <button className={`${styles.searchButton} rounded-circle`}> <i className='bi bi-search fs-4'/></button>
                 <div className='d-flex flex-column flex-lg-row  rounded-4 gap-4 gap-lg-0 px-4 py-4 '>
@@ -151,7 +152,7 @@ const Filters = () => {
                                 showGuestSelector && <div ref={guestsRef} className={`${styles.countersContainer} px-3 py-2`}>
                                 {Object.keys(guestsAndRooms).filter((item)=>item!=="totalGuests").map((item)=>{
                                     return (
-                                        <CommonCounter count={guestsAndRooms[item]} name={item} handleIncrease={handleIncrease} handleDecrease={handleDecrease}/>
+                                        <CommonCounter key={item} count={guestsAndRooms[item]} name={item} handleIncrease={handleIncrease} handleDecrease={handleDecrease}/>
                                     )
                                 })}
                             </div>

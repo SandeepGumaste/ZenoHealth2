@@ -2,33 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import 'tiny-slider/dist/tiny-slider.css';
 import OfferCard from './OfferCard';
 import {tns} from 'tiny-slider/src/tiny-slider.js';
+import { offersData } from '../../data/data';
 
-
-
-
-
-const offersData=[
-    {
-        imgUrl:"https://booking.webestica.com/assets/images/offer/01.jpg",
-        heading:"Book & enjoy",
-        content:"Up to 3 nights free"
-    },
-    {
-        imgUrl:"https://booking.webestica.com/assets/images/offer/02.jpg",
-        heading:"Hot Summer Nights",
-        content:"Up to 3 nights free"
-    },
-    {
-        imgUrl:"https://booking.webestica.com/assets/images/offer/04.jpg",
-        heading:"Up to 60% OFF",
-        content:"Up to 3 nights free"
-    },
-    {
-        imgUrl:"https://booking.webestica.com/assets/images/offer/03.jpg",
-        heading:"Book & enjoy",
-        content:"Up to 3 nights free"
-    }
-]
 
 const Offers = () => {
     const slider = useRef(null)
@@ -59,8 +34,8 @@ const Offers = () => {
       <section className={StyleSheet.offersContainer}>
       <div className='container'>
         <div className='offersSlider row mx-auto' ref={slider}>
-            { offersData.map((offer)=>{
-                return <OfferCard data={offer} key={offer.heading}/>
+            { offersData.map((offer,index)=>{
+                return <OfferCard data={offer} key={offer.heading+index}/>
             })}
         </div>
       </div>

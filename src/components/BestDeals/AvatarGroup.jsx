@@ -1,12 +1,7 @@
 import React from 'react'
 import styles from "./bestDeals.module.css"
-// https://booking.webestica.com/assets/images/element/01.svg
-const avatars = [
-    "https://booking.webestica.com/assets/images/avatar/01.jpg",
-    "https://booking.webestica.com/assets/images/avatar/02.jpg",
-    "https://booking.webestica.com/assets/images/avatar/03.jpg",
-    "https://booking.webestica.com/assets/images/avatar/04.jpg",
-]
+import { avatars } from '../../data/data'
+
 const AvatarGroup = () => {
   return (
     <div className={`${styles.avatarGroup} bg-white rounded-4 position-absolute d-flex`}>

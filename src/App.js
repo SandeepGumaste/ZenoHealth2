@@ -9,6 +9,7 @@ import BestDeals from './components/BestDeals/BestDeals';
 import Navbar from './components/Navbar/Navbar';
 import Filters from './components/Filters/Filters';
 import Feedback from './components/Feedback/Feedback';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,7 +17,6 @@ function App() {
       <Navbar/>
       <Hero/>
       <Filters/>
-      <section className='d-flex d-lg-none'/>
       <Offers/>
       <BestDeals/>
       <FeaturedHotels/>
@@ -24,6 +24,7 @@ function App() {
       <Feedback/>
       <ExploreNearby/>
       <Trust/>
+      <Footer/>
     </div>
   );
 }
