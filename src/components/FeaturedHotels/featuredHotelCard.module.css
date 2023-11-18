@@ -11,3 +11,10 @@
 .hotelCard:hover .hotelName{
     color:var(--btn-txt) !important;
 }
+.hotelCard img{
+    transition: all 0.5s;
+}
+
+.hotelCard:hover img{
+    transform: scale(1.05,1.05);
+}
