@@ -1,21 +1,15 @@
-.cardImg{
-    object-fit: cover;
+.cardImg {
+  object-fit: cover;
 }
 
-
-
-
 @media screen and (min-width: 998px) {
-
-    .offerCard{
-        height: 130px;
-        cursor: pointer;
-    }
-    .cardImg{
-        max-width: 130px;
-        height: 128px;
-        object-fit: cover;
-    }
-  
+  .offerCard {
+    height: 130px;
+    cursor: pointer;
   }
-  
+  .cardImg {
+    max-width: 130px;
+    height: 128px;
+    object-fit: cover;
+  }
+}

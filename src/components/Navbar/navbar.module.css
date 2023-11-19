@@ -1,9 +1,9 @@
-.notification{
-    background: #f5f5f6;
-    width: 40px;
-    height: 40px;
+.notification {
+  background: #f5f5f6;
+  width: 40px;
+  height: 40px;
 }
 
-.notification:hover{
-    background: #d3d3d3;
+.notification:hover {
+  background: #d3d3d3;
 }

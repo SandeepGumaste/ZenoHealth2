@@ -1,14 +1,13 @@
-.placeCard{
-    cursor: pointer;
-    transition: all 0.5s;
+.placeCard {
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
-
-.placeName{
-    font-size: 1.5rem;
-    transition: all 0.6s ease;
+.placeName {
+  font-size: 1.5rem;
+  transition: all 0.6s ease;
 }
 
-.placeCard:hover .placeName{
-    color:var(--btn-txt) !important;
+.placeCard:hover .placeName {
+  color: var(--btn-txt) !important;
 }
