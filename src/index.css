@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  color: #0B0A12;
+  font-family: "Poppins", sans-serif;
+  color: #0b0a12;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --btn-txt:#5143d9;
-  --btn-bg:rgba(81, 67, 217, 0.1);
-  --success:rgb(12,188,135);
+  --btn-txt: #5143d9;
+  --btn-bg: rgba(81, 67, 217, 0.1);
+  --success: rgb(12, 188, 135);
 }
 
 section {
@@ -14,48 +14,48 @@ section {
   padding-bottom: 2.8rem;
 }
 
-p,a,label,button{
-  font-family: 'DM Sans', sans-serif;
+p,
+a,
+label,
+button {
+  font-family: "DM Sans", sans-serif;
   color: #747579;
 }
 
-button[data-action="stop"]{
+button[data-action="stop"] {
   display: none;
 }
 
-.rdrDefinedRangesWrapper{
+.rdrDefinedRangesWrapper {
   display: none;
 }
-.rdrDateRangePickerWrapper{
+.rdrDateRangePickerWrapper {
   position: absolute;
   top: 100%;
   left: 0;
-  background:  white !important;
-  z-index:100;
+  background: white !important;
+  z-index: 100;
   border: 1px solid var(--btn-txt);
   overflow: hidden;
   border-radius: 0 0 10px 10px;
 }
 
-.fill{
- color: var(--btn-txt);
+.fill {
+  color: var(--btn-txt);
 }
 
-ul{
+ul {
   list-style: none;
 }
-.nav-link{
+.nav-link {
   padding: 3px 0;
 }
 a {
   text-decoration: none;
 }
 
-
 @media screen and (min-width: 1200px) {
-
-  .container{
+  .container {
     max-width: 1140px;
   }
-
 }

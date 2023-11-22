@@ -1,79 +1,75 @@
-.formLabel{
-    top:-0.8rem;
-    left:1rem;
-    padding: 0, 0.5rem;
+.formLabel {
+  top: -0.8rem;
+  left: 1rem;
+  padding: 0, 0.5rem;
 }
-.filters{
-    width: 100%;
-    max-width: 992px;
-    background: white;
-    border-radius: 10px;
-    position: absolute;
-    top:-400%;
-    left: 0;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.075);
-    padding-top:0.5rem ;
-    padding-bottom:0.5rem ;
-}
-
-.calActive,.guestActive,.locationActive{
-    border-color: var(--btn-txt) !important;
+.filters {
+  width: 100%;
+  max-width: 992px;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  top: -400%;
+  left: 0;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.075);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.countersContainer,.locationContainer{
-    min-width: 100%;
-    position: absolute;
+.calActive,
+.guestActive,
+.locationActive {
+  border-color: var(--btn-txt) !important;
+}
+
+.countersContainer,
+.locationContainer {
+  min-width: 100%;
+  position: absolute;
   top: 100%;
   left: 0;
-  background:  white !important;
-  z-index:100;
+  background: white !important;
+  z-index: 100;
   border: 1px solid var(--btn-txt);
   overflow: hidden;
   border-radius: 0 0 15px 15px;
 }
 
-.locationContainer input{
-    border: none;
+.locationContainer input {
+  border: none;
 }
 
-.locationContainer input:focus{
-    outline: none;
+.locationContainer input:focus {
+  outline: none;
 }
 
-.dropdownOption{
-    cursor: pointer;
+.dropdownOption {
+  cursor: pointer;
 }
 
-.dropdownOption:hover{
-    background-color: var(--btn-bg);
-    cursor: pointer;
+.dropdownOption:hover {
+  background-color: var(--btn-bg);
+  cursor: pointer;
 }
 
-.searchButton{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    z-index: 100;
-    border: none;
-    outline: none;
-    background:var(--btn-txt);
-    color: white;
-    right: 0;
-    top: 50%;
-    transform: translate(50%,-50%);
-
-    
+.searchButton {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  border: none;
+  outline: none;
+  background: var(--btn-txt);
+  color: white;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
 }
 
 @media screen and (max-width: 998px) {
-
-    .searchButton{
-        top: 100%;
-       left: 50%;
-       transform: translate(-50%,-50%);
-    }
-  
+  .searchButton {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  
-
-
+}

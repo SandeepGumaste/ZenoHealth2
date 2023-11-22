@@ -1,35 +1,32 @@
-.heading{
-    font-weight: 700;
-    font-size: calc(1.525rem + 3.3vw);
+.heading {
+  font-weight: 700;
+  font-size: calc(1.525rem + 3.3vw);
 }
 
-.btn{
-    color: var(--btn-txt);
-    background-color: var(--btn-bg);
-    font-weight: 600;
-  }
-  
-.btn:hover{
-    background-color: var(--btn-txt);
-    color: #fff;
-  }
+.btn {
+  color: var(--btn-txt);
+  background-color: var(--btn-bg);
+  font-weight: 600;
+}
 
-.guide{
+.btn:hover {
+  background-color: var(--btn-txt);
+  color: #fff;
+}
+
+.guide {
   position: absolute;
   top: -15px;
   right: 0;
   backdrop-filter: blur(4px);
 }
 
-.imageCircleContainer{
-  left:-1rem
+.imageCircleContainer {
+  left: -1rem;
 }
-
 
 @media screen and (min-width: 1200px) {
-
-.heading{
-  font-size: 64px;
-}
-
+  .heading {
+    font-size: 64px;
+  }
 }
